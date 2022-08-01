@@ -1,0 +1,46 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "svgo",
+  "title": "SVGO",
+  "description": "use svgo to optimize svg in raycast",
+  "icon": "svgo.png",
+  "author": "kaichi",
+  "categories": [
+    "Developer Tools"
+  ],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "optimize",
+      "title": "Optimize",
+      "subtitle": "SVGO",
+      "description": "optimize svg",
+      "mode": "no-view"
+    },
+    {
+      "name": "config",
+      "title": "Config",
+      "subtitle": "SVGO",
+      "description": "SVGO Config",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.38.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "publish": "ray publish"
+  }
+}

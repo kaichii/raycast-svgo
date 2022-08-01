@@ -1,2 +1,3 @@
-# raycast-svgo
-Use svgo in raycast
+# SVGO
+
+optimte svg
