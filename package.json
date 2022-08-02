@@ -17,6 +17,13 @@
       "subtitle": "SVGO",
       "description": "optimize svg",
       "mode": "no-view"
+    },
+    {
+      "name": "configuration",
+      "title": "Configuration",
+      "subtitle": "SVGO",
+      "description": "configuration for svgo",
+      "mode": "view"
     }
   ],
   "dependencies": {
