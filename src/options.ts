@@ -1,4 +1,4 @@
-export const options = {
+export const OPTIONS = {
   cleanupAttrs: {
     title: "cleanupAttrs",
     description: "cleanup attributes from newlines, trailing, and repeating spaces",
