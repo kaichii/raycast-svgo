@@ -21,17 +21,17 @@
   ],
   "dependencies": {
     "@raycast/api": "1.38.2",
-    "is-svg": "^4.3.2",
-    "svgo": "^2.8.0"
+    "is-svg": "4.3.2",
+    "svgo": "2.8.0"
   },
   "devDependencies": {
-    "@types/svgo": "^2.6.3",
+    "@types/svgo": "2.6.3",
     "@typescript-eslint/eslint-plugin": "5.32.0",
     "@typescript-eslint/parser": "5.32.0",
     "eslint": "8.21.0",
-    "eslint-config-prettier": "^8.3.0",
-    "prettier": "^2.5.1",
-    "typescript": "^4.4.3"
+    "eslint-config-prettier": "8.5.0",
+    "prettier": "2.7.1",
+    "typescript": "4.7.4"
   },
   "scripts": {
     "build": "ray build -e dist",
