@@ -2,7 +2,7 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "raycast-svgo",
   "title": "SVGO",
-  "description": "Use SVGO in Raycast",
+  "description": "Optimize SVG from the clipboard",
   "icon": "svgo.png",
   "author": "kaichi",
   "categories": [
