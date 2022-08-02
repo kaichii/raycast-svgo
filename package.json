@@ -2,11 +2,12 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "raycast-svgo",
   "title": "SVGO",
-  "description": "use svgo to optimize svg in raycast",
+  "description": "Use SVGO in Raycast",
   "icon": "svgo.png",
   "author": "kaichi",
   "categories": [
-    "Developer Tools"
+    "Developer Tools",
+    "Design Tools"
   ],
   "license": "MIT",
   "commands": [
