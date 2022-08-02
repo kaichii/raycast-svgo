@@ -1,6 +1,6 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "svgo",
+  "name": "raycast-svgo",
   "title": "SVGO",
   "description": "use svgo to optimize svg in raycast",
   "icon": "svgo.png",
@@ -16,19 +16,15 @@
       "subtitle": "SVGO",
       "description": "optimize svg",
       "mode": "no-view"
-    },
-    {
-      "name": "config",
-      "title": "Config",
-      "subtitle": "SVGO",
-      "description": "SVGO Config",
-      "mode": "view"
     }
   ],
   "dependencies": {
-    "@raycast/api": "1.38.2"
+    "@raycast/api": "1.38.2",
+    "is-svg": "^4.3.2",
+    "svgo": "^2.8.0"
   },
   "devDependencies": {
+    "@types/svgo": "^2.6.3",
     "@typescript-eslint/eslint-plugin": "5.32.0",
     "@typescript-eslint/parser": "5.32.0",
     "eslint": "8.21.0",
