@@ -20,7 +20,7 @@
     }
   ],
   "dependencies": {
-    "@raycast/api": "1.38.3",
+    "@raycast/api": "1.39.1",
     "is-svg": "4.3.2",
     "svgo": "2.8.0"
   },
